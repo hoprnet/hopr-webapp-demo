@@ -7,6 +7,10 @@
     "build": "next build",
     "start": "next start"
   },
+  "engines": {
+    "node": "12.9.1",
+    "yarn": "1"
+  },
   "dependencies": {
     "@hoprnet/hopr-protos": "^0.0.12",
     "classnames": "^2.2.6",
