@@ -11,7 +11,7 @@
 HOPR Server</a>.
   </p>
   <p align="center">
-    <b>HOPR Webapp Demo</b> is a <code>website</code> that allows <code>users</code> to send <code>messages</code> to HOPR nodes available in the network.
+    <b>HOPR Webapp Demo</b> is a <code>web application</code> that allows <code>users</code> to send <code>messages</code> to HOPR nodes available in the network.
   </p>
 </p>
 
@@ -41,7 +41,7 @@ HOPR Server</a>.
 
 ## Overview
 
-**HOPR Webapp Demo** is a chat webapp build using [next.js](https://nextjs.org/).
+**HOPR Webapp Demo** is a chat web application build using [next.js](https://nextjs.org/).
 
 ### Technologies
 
@@ -83,9 +83,9 @@ yarn
 
 The following environment variables can be stored and used in an `.env` file located at the root of the project.
 
-| Name    | Description          | Type   | Example      |
-| :------ | :------------------- | :----- | :----------- |
-| API_URL | hopr-server endpoint | string | 0.0.0.0:8080 |
+| Name    | Description                | Type   | Example      |
+| :------ | :------------------------- | :----- | :----------- |
+| API_URL | hopr-server envoy endpoint | string | 0.0.0.0:8080 |
 
 <!-- ROADMAP -->
 
