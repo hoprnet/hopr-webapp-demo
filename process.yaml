@@ -1,0 +1,12 @@
+apps:
+  - script: ./hopr-server/server.js
+    name: "server"
+    instances: 1
+  - script: ./envoy/envoy.sh
+    name: "proxy"
+    instances: 1
+    env:
+      SERVICE_ADDRESS: 127.0.0.1
+  - script: npm start
+    name: "nextjs"
+    instances: 1
